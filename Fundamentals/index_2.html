@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+  <script>
+    for (let i = 0; i < 10; i++) {
+      document.write("This is: " + (i + 1));
+      document.write("</br>");
+    }
+
+    let sum = 0;
+    let cnt = 0;
+
+    while (cnt++ < 10) {
+        sum += cnt;
+    }
+    document.write("sum is: " + sum + "</br>");
+
+    while(true) {
+        sum += cnt;
+        if (sum > 50) {
+            console.log("Counter: " + cnt);
+            document.write("im here");
+            break;
+
+        }
+    }
+    document.write(sum + "- sum");
+  </script>
+</head>
+<body>
+
+</body>
+</html>
