@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function compareToNumbers(num1, num2) {
+            if(isNaN(num1) && typeof isNaN(num2)) {
+                if (num1 >= num2) {
+                    console.log("Ovaj je veci")
+                } else {
+                    console.log("Ovaj drugi je veci")
+                }
+            } else {
+                console.log("Nisu brojevi")
+            }
+        }
+
+        compareToNumbers(130, 100);
+        compareToNumbers(9, 100);
+        compareToNumbers("is", 1);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

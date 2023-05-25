@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        let ar1 = ["svi", "su", "istog", "tipa"];
+        ar1[0] = 100;
+        console.log(ar1);
+        ar1[5] = 300;
+        for (let i = 0; i < ar1.length; i++) {
+            document.write("Element is " + ar1[i] + " type of: " + typeof (ar1[i]) + "</br>");
+        }
+
+        for (elem of ar1) {
+            document.write(elem + "this   ");
+        }
+        ar1 = new Array(1, 3, 5)
+        for (elem of ar1) {
+            document.write("</br>")
+            document.write(elem + "this   ");
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
